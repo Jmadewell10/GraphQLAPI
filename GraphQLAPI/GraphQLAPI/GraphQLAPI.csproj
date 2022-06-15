@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>2e23a8b0-807c-4634-b9a2-4520064686e0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gremlin.Net" Version="3.4.0" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="12.11.0" />
+    <PackageReference Include="HotChocolate.Data" Version="12.11.1" />
+  </ItemGroup>
+
+</Project>
